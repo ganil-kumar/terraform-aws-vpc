@@ -1,4 +1,4 @@
-/* output "azs_info" {
+output "azs_info" {
     value = data.aws_availability_zones.available
 }
 
@@ -16,4 +16,4 @@ output "private_subnet_ids" {
 
 output "database_subnet_ids" {
     value = aws_subnet.database[*].id
-} */
+}
